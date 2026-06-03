@@ -1,0 +1,13 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+**/.vs
+**/appsettings.*.con.json
+**/appsettings.claude.*.json
+**/[Bb]in
+**/[Oo]bj
+**/Smidge
+**/.config/
+**/IISRewrite.xml
+**/[uU]mbraco
+**/apsettings-schema*
