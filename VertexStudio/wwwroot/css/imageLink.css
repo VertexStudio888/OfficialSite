@@ -1,0 +1,61 @@
+﻿
+.portfolio-item {
+    position: relative;
+    display: block;
+    max-width: 26rem;
+    border-radius: 10px;
+    overflow: hidden; /* Garante que o hover não sai dos cantos arredondados */
+    /* SOMBRA NATURAL: Mais suave e espalhada (fundo desfocado) */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
+    /* Transição suave para o movimento e para a sombra */
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+    /* Efeito ao passar o rato (Hover) */
+    .portfolio-item:hover {
+        transform: translateY(-8px); 
+        box-shadow: 0 20px 38px rgba(0, 0, 0, 0.15), 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+.portfolio-img-container {
+    width: 100%;
+    aspect-ratio: 4 / 3; 
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff !important;
+}
+
+
+.portfolio-custom-img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center center;
+    transition: transform 0.4s ease-in-out;
+}
+.portfolio-link-wrapper:hover .portfolio-custom-img {
+    transform: scale(1.1); /
+}
+
+.portfolio-link-wrapper {
+    position: relative;
+    display: block;
+}
+
+.portfolio-item-caption-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    transition: opacity 0.25s ease;
+}
+
+.portfolio-link-wrapper:hover .portfolio-item-caption-overlay {
+    opacity: 1;
+}
