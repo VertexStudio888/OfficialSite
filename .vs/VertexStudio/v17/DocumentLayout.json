@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\GS\\source\\repos\\OfficialSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\partials\\blockgrid\\components\\headercontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\partials\\blockgrid\\components\\headercontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\wwwroot\\assets\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\wwwroot\\assets\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\partials\\headercontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\partials\\headercontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Home.cshtml",
-              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Home.cshtml",
-              "RelativeDocumentMoniker": "VertexStudio\\Views\\Home.cshtml",
-              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Home.cshtml*",
-              "RelativeToolTip": "VertexStudio\\Views\\Home.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-05T10:57:16.363Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -49,22 +32,22 @@
               "RelativeDocumentMoniker": "VertexStudio\\wwwroot\\assets\\css\\header.css",
               "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\wwwroot\\assets\\css\\header.css",
               "RelativeToolTip": "VertexStudio\\wwwroot\\assets\\css\\header.css",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAuwJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-06-05T10:48:12.036Z",
+              "WhenOpened": "2026-06-05T19:37:47.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "headerContent.cshtml",
-              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\headerContent.cshtml",
-              "RelativeDocumentMoniker": "VertexStudio\\Views\\Partials\\headerContent.cshtml",
-              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\headerContent.cshtml",
-              "RelativeToolTip": "VertexStudio\\Views\\Partials\\headerContent.cshtml",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwD8AAAAwAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\headerContent.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\headerContent.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\headerContent.cshtml*",
+              "RelativeToolTip": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\headerContent.cshtml*",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAIwIsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-05T10:09:38.397Z",
+              "WhenOpened": "2026-06-05T19:32:20.629Z",
               "EditorCaption": ""
             }
           ]

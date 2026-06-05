@@ -4,4 +4,4 @@
 @{
     Layout = null;
 }
-@await Html.GetBlockGridHtmlAsync(Model, "headerContent")
+@await Html.PartialAsync("~/Views/Partials/blockgrid/Components/headerContent.cshtml", Model)

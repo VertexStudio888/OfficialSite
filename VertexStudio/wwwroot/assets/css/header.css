@@ -1,18 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .slider {
     position: relative;
     width: 100%;
+    height: 100vh;
     overflow: hidden;
 }
 
 .slider__track {
     display: flex;
+    height: 100%;
     transition: transform 0.8s cubic-bezier(0.77, 0, 0.18, 1);
     will-change: transform;
 }
 
 .slider__slide {
     min-width: 100%;
-    min-height: 480px;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
