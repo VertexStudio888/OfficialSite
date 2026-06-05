@@ -2,5 +2,6 @@
 @inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Home>
 @using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
 @{
-	Layout = null;
+    Layout = null;
 }
+@await Html.GetBlockGridHtmlAsync(Model, "headerContent")
