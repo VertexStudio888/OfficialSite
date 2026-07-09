@@ -1,0 +1,58 @@
+.pattern-divisor-class{
+  .paddings-section{
+    padding: 8rem 0;
+  }
+
+  .service{
+    padding-top: 8rem;
+    min-height: 42rem;
+  }
+  .hero-home{
+    .hero-home__container{
+      margin-bottom: 0;
+      .hero-home__container-centered{
+        min-height: 55rem;
+      }
+    }
+    &::before{
+      height: 0;
+    }
+  }
+
+  .works,
+  .services-description,
+  .contact{
+    @extend .paddings-section;
+    &::before{
+      background: url("../images/arrows/top.png") repeat-x;
+      width: 100%;
+      height: 13px;
+      position: absolute;
+      top: -13px;
+      left: 0;
+      content: "";
+      z-index: 1;
+      -webkit-clip-path: inherit;
+      clip-path: inherit;
+    }
+    &::after{
+      background: url("../images/arrows/bottom.png") repeat-x;
+      width: 100%;
+      height: 13px;
+      position: absolute;
+      bottom: -13px;
+      left: 0;
+      content: "";
+      z-index: 1;
+    }
+  }
+  .services-description{
+      padding-bottom: 4rem;
+  }
+  .about{
+    @extend .paddings-section;
+  }
+  .contact{
+    padding: 6rem 0;
+  }
+}

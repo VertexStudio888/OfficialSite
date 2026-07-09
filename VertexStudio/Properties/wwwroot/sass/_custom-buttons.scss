@@ -1,0 +1,89 @@
+
+//******************************Custom Buttons******************************//
+.btn{
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  @extend .transition;
+  span{
+    position: relative;
+    z-index: 1;
+    @extend .transition;
+  }
+  &:hover{
+    @extend .transition;
+    border-radius: 0;
+  }
+  &:active{ color: $white; }
+}
+.btn-primary{
+  color: $white;
+  position: relative;
+  &::after{
+    height: 0%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $black;
+    opacity: 0;
+    @extend .transition;
+  }
+  &:hover{
+    background-color: transparent;
+    color: $white;
+    &::after{
+      height: 100%;
+      opacity: 1;
+      @extend .transition;
+    }
+  }
+}
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle{
+    opacity: .5;
+}
+.btn-outline-primary{
+  color: $white;
+  position: relative;
+  &::before{
+    background-color: rgba(254,203,28,0.8);
+  	-webkit-transform: scale(1, 0.5);
+  	transform: scale(1, 0.5);
+  	position: absolute;
+  	@extend .transition;
+  	content: '';
+  	width: 100%;
+  	height: 100%;
+  	z-index: 1;
+  	opacity: 0;
+  	left: 0;
+  	top: 0;
+  }
+  &:hover{
+    color: $white;
+    background-color: transparent;
+    &::before{
+    	opacity: 1;
+    	-webkit-transform: scale(1, 1);
+    	transform: scale(1, 1);
+    }
+  }
+  &.light-bg{
+    span{ color: $primary; }
+    &:hover{ span{ color: $white !important; } }
+  }
+}
+.btn-lg, .btn-group-lg > .btn{ font-size: 0.9rem; padding: 1rem 3rem; }
+.btn-sm, .btn-group-sm > .btn{ font-size: .75rem; padding: 0.4rem 0.8rem; }
+
+.form-check-input{ margin-top: 0.5rem; }
+
+//for light backgrounds
+.dark-form{
+  .form-control{
+    border: 1px solid $black;
+  }
+}

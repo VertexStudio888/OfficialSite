@@ -1,0 +1,85 @@
+
+html{
+    @include media-breakpoint-down(md) {
+        font-size: 90%;
+    }
+}
+
+//Define Theme Fonts
+$headings-font-family: 'Oswald', sans-serif;
+$font-family-base: 'Raleway', sans-serif;
+$font-weight-semi-bold: 700;
+$font-weight-normal: 500;
+
+$font-size-base: 1rem;
+
+.transition{
+  -webkit-transition: all 300ms ease-in;
+  -moz-transition: all 300ms ease-in;
+  -ms-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+
+body{
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  letter-spacing: .02rem;
+  color: $black;
+  line-height: 2rem;
+
+  h1,h2,h3,h4,h5,h6{
+      font-family: $headings-font-family;
+      font-weight: $font-weight-semi-bold;
+      word-wrap: normal;
+      word-break: keep-all;
+      hyphens: none;
+  }
+
+  a{
+    color: $white;
+    font-style: italic;
+    @extend .transition;
+    text-decoration: none;
+    &:not([href]):not([tabindex]){ color: $white; }
+    &:focus{ outline: none; color: $primary; }
+    &:hover{
+        text-decoration: none;
+        color: $white;
+        opacity: .9;
+        @extend .transition;
+        cursor: pointer;
+    }
+    &:not([href]):not([tabindex]):hover,
+    &:not([href]):not([tabindex]):focus{
+      color: $white;
+    }
+  }
+
+  p{
+    font-style: italic;
+    line-height: 2rem;
+    opacity: .8;
+  }
+  video{
+    width: 100%;
+  }
+  iframe{
+    width: 100%;
+    height: 31rem;
+    border: none;
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+    li{
+      list-style: none;
+    }
+  }
+}
+
+//******************************Background Styles to Import******************************//
+.background-style{
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

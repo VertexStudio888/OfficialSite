@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\GS\\source\\repos\\OfficialSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\partials\\blockgrid\\components\\headercontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\partials\\blockgrid\\components\\headercontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\ourwork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\ourwork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\wwwroot\\assets\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\wwwroot\\assets\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\partials\\blockgrid\\components\\navigationresends.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\partials\\blockgrid\\components\\navigationresends.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\content.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\content.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\partials\\blockgrid\\components\\navigationarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\partials\\blockgrid\\components\\navigationarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\partials\\blockgrid\\components\\navigationimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\partials\\blockgrid\\components\\navigationimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\wwwroot\\crafto (2)\\documentation\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VertexStudio\\wwwroot\\crafto (2)\\documentation\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\properties\\wwwroot\\assets\\css\\swiffy-slider.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\properties\\wwwroot\\assets\\css\\swiffy-slider.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\properties\\wwwroot\\assets\\css\\vs2015.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\properties\\wwwroot\\assets\\css\\vs2015.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\properties\\wwwroot\\css\\fontawesome\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\properties\\wwwroot\\css\\fontawesome\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +62,164 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "header.css",
-              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\wwwroot\\assets\\css\\header.css",
-              "RelativeDocumentMoniker": "VertexStudio\\wwwroot\\assets\\css\\header.css",
-              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\wwwroot\\assets\\css\\header.css",
-              "RelativeToolTip": "VertexStudio\\wwwroot\\assets\\css\\header.css",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAuwJcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-06-05T19:37:47.778Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "headerContent.cshtml",
-              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\headerContent.cshtml",
-              "RelativeDocumentMoniker": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\headerContent.cshtml",
-              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\headerContent.cshtml*",
-              "RelativeToolTip": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\headerContent.cshtml*",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAIwIgAAAAFAAAAAAAAAA==",
+              "Title": "OurWork.cshtml",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\OurWork.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\OurWork.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\OurWork.cshtml",
+              "RelativeToolTip": "VertexStudio\\Views\\OurWork.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-05T19:32:20.629Z",
+              "WhenOpened": "2026-07-09T15:30:39.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\About.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\About.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\About.cshtml",
+              "RelativeToolTip": "VertexStudio\\Views\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T15:12:02.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Content.cshtml",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Content.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\Content.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Content.cshtml",
+              "RelativeToolTip": "VertexStudio\\Views\\Content.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T14:53:14.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "navigationResends.cshtml",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\navigationResends.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\navigationResends.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\navigationResends.cshtml",
+              "RelativeToolTip": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\navigationResends.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T14:50:32.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "navigationArea.cshtml",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\navigationArea.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\navigationArea.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\navigationArea.cshtml",
+              "RelativeToolTip": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\navigationArea.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T14:50:10.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "navigationImage.cshtml",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\navigationImage.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\navigationImage.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\navigationImage.cshtml",
+              "RelativeToolTip": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\navigationImage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T14:48:49.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\wwwroot\\crafto (2)\\documentation\\index.html",
+              "RelativeDocumentMoniker": "VertexStudio\\wwwroot\\crafto (2)\\documentation\\index.html",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\wwwroot\\crafto (2)\\documentation\\index.html",
+              "RelativeToolTip": "VertexStudio\\wwwroot\\crafto (2)\\documentation\\index.html",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-03T14:09:43.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Properties\\wwwroot\\css\\fontawesome\\main.css",
+              "RelativeDocumentMoniker": "VertexStudio\\Properties\\wwwroot\\css\\fontawesome\\main.css",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Properties\\wwwroot\\css\\fontawesome\\main.css",
+              "RelativeToolTip": "VertexStudio\\Properties\\wwwroot\\css\\fontawesome\\main.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-03T14:02:21.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "vs2015.css",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Properties\\wwwroot\\assets\\css\\vs2015.css",
+              "RelativeDocumentMoniker": "VertexStudio\\Properties\\wwwroot\\assets\\css\\vs2015.css",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Properties\\wwwroot\\assets\\css\\vs2015.css",
+              "RelativeToolTip": "VertexStudio\\Properties\\wwwroot\\assets\\css\\vs2015.css",
+              "ViewState": "AgIAAGEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-03T14:02:11.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "swiffy-slider.min.css",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Properties\\wwwroot\\assets\\css\\swiffy-slider.min.css",
+              "RelativeDocumentMoniker": "VertexStudio\\Properties\\wwwroot\\assets\\css\\swiffy-slider.min.css",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Properties\\wwwroot\\assets\\css\\swiffy-slider.min.css",
+              "RelativeToolTip": "VertexStudio\\Properties\\wwwroot\\assets\\css\\swiffy-slider.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-03T14:02:06.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main.cshtml",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Main.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\Main.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Main.cshtml",
+              "RelativeToolTip": "VertexStudio\\Views\\Main.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-03T13:37:45.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Home.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\Home.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Home.cshtml",
+              "RelativeToolTip": "VertexStudio\\Views\\Home.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-03T13:37:44.953Z",
               "EditorCaption": ""
             }
           ]

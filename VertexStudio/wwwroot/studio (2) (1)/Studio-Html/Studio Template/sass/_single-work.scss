@@ -1,0 +1,81 @@
+.single-work{
+  h1,h2,h3,h4,h5,h6{ color: inherit; }
+
+    @include media-breakpoint-down(sm){
+      .contact.mt-- {
+        margin-top: -7rem;
+      }
+      .contact .contact__description p{
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+      }
+    }
+
+}
+
+.hero-single-work{
+  position: relative;
+  .hero-single-work__description{
+    position: absolute;
+    bottom: 1.875rem;
+    left: 1.875rem;
+    width: 27%;
+    background-color: rgba(255,255,255,0.9);
+    content: "";
+    -webkit-box-shadow: 9px 9px 7px -2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 9px 9px 7px -2px rgba(0,0,0,0.1);
+    box-shadow: 9px 9px 7px -2px rgba(0,0,0,0.1);
+    padding: 2rem;
+    @include media-breakpoint-down(lg){
+      width: 35%;
+    }
+    @include media-breakpoint-down(sm){
+      width: 70%;
+    }
+    @include media-breakpoint-down(xs){
+      width: 85%;
+    }
+    h1{
+        font-size: 1.45rem;
+    }
+    .url-project,a{
+      color: $primary;
+    }
+    .down-click{
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+      background-color: rgba(254, 203, 28, .97);
+      position: absolute;
+      right: -14%;
+      bottom: 13%;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      font-size: 2rem;
+      @include media-breakpoint-down(xs){
+        display: none;
+      }
+    }
+  }
+  .carousel-single-work{
+    .slick-prev{ left: 1.875rem; }
+    .slick-next{ right: 1.875rem; }
+  }
+}
+
+.project-description{
+  padding: 6rem 0;
+  @include media-breakpoint-down(sm){
+    padding: 1rem 0;
+  }
+}
+
+.stadistics{
+  margin: 6rem 0;
+  .stadistics-box{
+    background-color: $white;
+    padding: 1rem 2rem;
+  }
+}
