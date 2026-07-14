@@ -1,0 +1,43 @@
+@using Umbraco.Extensions
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem>
+@{
+    if (Model?.Areas.Any() != true) { return; }
+
+    Umbraco.Cms.Core.Models.Blocks.BlockGridArea? GetArea(string alias)
+        => Model.Areas.FirstOrDefault(a => a.Alias == alias);
+
+    var backgroundArea = GetArea("backgroundImage");
+    var backgroundImage = backgroundArea?.FirstOrDefault()?.Content?.Value<System.Collections.Generic.IEnumerable<Umbraco.Cms.Core.Models.MediaWithCrops>>("image")?.FirstOrDefault();
+}
+<section class="header-hero" style="@(backgroundImage != null ? $"background-image:url('{backgroundImage.Url()}');" : "")">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 title-section__light">
+                @if (GetArea("title") is { } titleArea)
+                {
+                    @await Html.GetBlockGridItemAreaHtmlAsync(titleArea)
+                }
+                @if (GetArea("descriptionHeaderText") is { } descArea)
+                {
+                    @await Html.GetBlockGridItemAreaHtmlAsync(descArea)
+                }
+                <div class="header-hero__actions d-flex flex-wrap gap-3 mt-4">
+                    @if (GetArea("textRebords1") is { } rebords1)
+                    {
+                        @await Html.GetBlockGridItemAreaHtmlAsync(rebords1)
+                    }
+                    @if (GetArea("textRebords2") is { } rebords2)
+                    {
+                        @await Html.GetBlockGridItemAreaHtmlAsync(rebords2)
+                    }
+                </div>
+            </div>
+            <div class="col-lg-5">
+                @if (GetArea("images") is { } imagesArea)
+                {
+                    @await Html.GetBlockGridItemAreaHtmlAsync(imagesArea)
+                }
+            </div>
+        </div>
+    </div>
+</section>

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\GS\\source\\repos\\OfficialSite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\partials\\blockgrid\\components\\descriptiontext.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\partials\\blockgrid\\components\\descriptiontext.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\partials\\blockgrid\\components\\textwithrebords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\partials\\blockgrid\\components\\textwithrebords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\partials\\blockgrid\\components\\resends.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\partials\\blockgrid\\components\\resends.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\partials\\blockgrid\\components\\svgimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\partials\\blockgrid\\components\\svgimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "descriptionText.cshtml",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\descriptionText.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\descriptionText.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\descriptionText.cshtml",
+              "RelativeToolTip": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\descriptionText.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-14T09:59:08.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "textWithRebords.cshtml",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\textWithRebords.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\textWithRebords.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\textWithRebords.cshtml",
+              "RelativeToolTip": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\textWithRebords.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-14T09:46:04.715Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -26,13 +64,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "sVGImage.cshtml",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\sVGImage.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\sVGImage.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\sVGImage.cshtml",
+              "RelativeToolTip": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\sVGImage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-14T09:45:47.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "resends.cshtml",
               "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\resends.cshtml",
               "RelativeDocumentMoniker": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\resends.cshtml",
               "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\resends.cshtml",
               "RelativeToolTip": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\resends.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-13T19:21:49.429Z",
               "EditorCaption": ""

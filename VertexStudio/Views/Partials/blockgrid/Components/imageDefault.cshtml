@@ -1,0 +1,14 @@
+@using Umbraco.Cms.Web.Common.PublishedModels
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ImageDefault>>
+@{
+    var images = Model.Content.Image;
+}
+@if (images != null && images.Any())
+{
+    <div class="image-default d-flex flex-wrap gap-3">
+        @foreach (var img in images)
+        {
+            <img src="@img.Url()" alt="@img.Name" class="img-fluid" loading="lazy" />
+        }
+    </div>
+}

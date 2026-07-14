@@ -1,0 +1,7 @@
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem>
+@* O doctype 'Contact' não tem propriedades próprias - serve apenas de marcador
+   para invocar o formulário de contacto (ver Views/Components/Contact/Default.cshtml
+   e o estilo em Views/Partials/contact.cshtml). *@
+<div class="contact__form">
+    @await Component.InvokeAsync("Contact")
+</div>

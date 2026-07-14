@@ -1,0 +1,14 @@
+@using Umbraco.Cms.Web.Common.PublishedModels
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<BoxContent>>
+@{
+    var tags = Model.Content.SelectTags;
+}
+@if (tags != null && tags.Any())
+{
+    <ul class="box-content__tags list-unstyled d-flex flex-wrap gap-2">
+        @foreach (var tag in tags)
+        {
+            <li class="badge badge-dark">@tag.Name</li>
+        }
+    </ul>
+}

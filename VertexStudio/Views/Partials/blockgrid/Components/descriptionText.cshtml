@@ -1,0 +1,11 @@
+@using Umbraco.Cms.Web.Common.PublishedModels
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<DescriptionText>>
+@{
+    var html = Model.Content.RichTextArea;
+}
+@if (html != null)
+{
+    <div class="description-text">
+        @html
+    </div>
+}
