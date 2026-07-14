@@ -1,11 +1,14 @@
-﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+﻿@using Umbraco.Cms.Core.Models.PublishedContent
+@using Umbraco.Cms.Web.Common.PublishedModels
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
 @{
-    Layout = "Main.cshtml";
+    var siteSettings = Umbraco.ContentAtRoot().FirstOrDefault()?.DescendantsOrSelf<SiteSettings>().FirstOrDefault();
 }
-@await Html.PartialAsync("~/Views/Partials/header.cshtml")
-@await Html.PartialAsync("~/Views/Partials/work.cshtml")
-@await Html.PartialAsync("~/Views/Partials/portfolio.cshtml")
-@await Html.PartialAsync("~/Views/Partials/modals.cshtml")
-@await Html.PartialAsync("~/Views/Partials/about.cshtml")
-@await Html.PartialAsync("~/Views/Partials/service.cshtml")
-@await Html.PartialAsync("~/Views/Partials/contact.cshtml")
+<footer class="site-footer">
+    <div class="container">
+        @if (siteSettings is not null)
+        {
+            @await Html.GetBlockGridHtmlAsync(siteSettings, "footerContentSection")
+        }
+    </div>
+</footer>

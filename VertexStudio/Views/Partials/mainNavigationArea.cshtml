@@ -2,15 +2,15 @@
 @using Umbraco.Cms.Web.Common.PublishedModels
 @inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
 @{
-    var siteSettings = Umbraco.ContentAtRoot().DescendantsOrSelf<SiteSettings>().FirstOrDefault();
+    var siteSettings = Umbraco.ContentAtRoot().FirstOrDefault()?.DescendantsOrSelf<SiteSettings>().FirstOrDefault();
 
     var searchTerm = Context.Request.Query["q"].ToString();
     var hasSearched = !string.IsNullOrWhiteSpace(searchTerm);
 
     var searchResults = hasSearched
         ? Umbraco.ContentAtRoot()
-            .DescendantsOrSelf()
-            .Where(x => x.IsVisible() && !string.IsNullOrEmpty(x.Name) && x.Name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+            .SelectMany(x => x.DescendantsOrSelf())
+            .Where(x => x.IsVisible() && !string.IsNullOrEmpty(x.Name) && x.Name!.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
             .Take(8)
             .ToList()
         : new List<IPublishedContent>();
