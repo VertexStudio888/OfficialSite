@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\GS\\source\\repos\\OfficialSite\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|c:\\users\\gs\\source\\repos\\officialsite\\vertexstudio\\views\\partials\\blockgrid\\components\\resends.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C9F5DEF-039F-488D-A32A-C6AF7AB49B9B}|VertexStudio\\VertexStudio.csproj|solutionrelative:vertexstudio\\views\\partials\\blockgrid\\components\\resends.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -20,8 +25,17 @@
               "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "resends.cshtml",
+              "DocumentMoniker": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\resends.cshtml",
+              "RelativeDocumentMoniker": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\resends.cshtml",
+              "ToolTip": "C:\\Users\\GS\\source\\repos\\OfficialSite\\VertexStudio\\Views\\Partials\\blockgrid\\Components\\resends.cshtml",
+              "RelativeToolTip": "VertexStudio\\Views\\Partials\\blockgrid\\Components\\resends.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-13T19:21:49.429Z",
+              "EditorCaption": ""
             }
           ]
         }

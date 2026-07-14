@@ -1,0 +1,21 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<Resends>>
+@{
+    var link = Model.Content.Link?.FirstOrDefault();
+    var label = !string.IsNullOrWhiteSpace(Model.Content.Title)
+        ? Model.Content.Title
+        : link?.Name;
+}
+
+@if (link != null)
+{
+    <li class="nav-item d-flex align-items-center">
+        <a class="nav-link" target="@link.Target" href="@link.Url">@label</a>
+    </li>
+}
+else if (!string.IsNullOrWhiteSpace(label))
+{
+    <li class="nav-item d-flex align-items-center">
+        <span class="nav-link">@label</span>
+    </li>
+}

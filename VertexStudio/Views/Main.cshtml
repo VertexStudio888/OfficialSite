@@ -8,10 +8,15 @@
 <html lang="pt">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="~/studio (2) (1)/Studio-Html/Studio Template/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @*     <link rel="stylesheet" href="/Studio-Html/StudioTemplate/css/bootstrap/bootstrap.css"> *@
+    <link rel="stylesheet" href="/studio%20(2)%20(1)/Studio-Html/Studio%20Template/css/main.css">
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 
 <body>
+    @await Html.PartialAsync("~/Views/Partials/mainNavigationSection.cshtml")
     @RenderBody()
+    @await Html.PartialAsync("~/Views/Partials/footer.cshtml")
 </body>
 </html>

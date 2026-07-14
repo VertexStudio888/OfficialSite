@@ -1,0 +1,14 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<SVgimage>>
+@{
+    var picture = Model.Content.SVgpicture;
+}
+
+@if (picture != null)
+{
+    <li class="nav-item logo-container d-flex align-items-center">
+        <a href="/" aria-label="Home">
+            <img src="@picture.Url()" alt="Logo" style="max-height: 60px; width: auto; display: block;" />
+        </a>
+    </li>
+}

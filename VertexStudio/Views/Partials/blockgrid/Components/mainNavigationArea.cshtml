@@ -1,0 +1,12 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem>
+
+@{
+    if (Model?.Areas.Any() != true) { return; }
+}
+
+@* Sem <div> a envolver: os itens (Logo, Resends) são <li>, e têm de ficar
+   diretamente dentro do <ul> do menu para o layout em linha (flex) funcionar. *@
+@foreach (var area in Model.Areas)
+{
+    @await Html.GetBlockGridItemAreaHtmlAsync(area)
+}
