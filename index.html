@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#0d0b47">
+<meta name="theme-color" content="#F6F8FE">
 <meta property="og:title" content="VertexStudio – Criação de sites">
 <meta property="og:description" content="Sites e lojas online com proposta fechada, sem custos escondidos.">
 <meta property="og:type" content="website">
@@ -20,16 +20,6 @@
   --body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
   color-scheme:light;
-}
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --bg:#151517;--surface:#202024;--ink:#F3F2F2;--muted:#A9A9B1;--line:#35353B;
-    --accent:#FF5753;--on-accent:#151517;--dot:#F3F2F2;color-scheme:dark;
-  }
-}
-:root[data-theme="dark"]{
-  --bg:#151517;--surface:#202024;--ink:#F3F2F2;--muted:#A9A9B1;--line:#35353B;
-  --accent:#FF5753;--on-accent:#151517;--dot:#F3F2F2;color-scheme:dark;
 }
 html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
 *,*::before,*::after{box-sizing:inherit}
@@ -475,6 +465,7 @@ nav .btn,.cover nav .btn{white-space:nowrap}
 }
 
 </style>
+<link rel="stylesheet" href="light.css">
 </head>
 <body>
 <a class="skip" href="#main">Saltar para o conteúdo</a>
@@ -1001,6 +992,7 @@ nav .btn,.cover nav .btn{white-space:nowrap}
 (function(){var b=document.getElementById("tld-pause");if(!b)return;var s=document.querySelector(".tld-strip");
 b.addEventListener("click",function(){var p=s.classList.toggle("is-paused");b.setAttribute("aria-pressed",p);b.textContent=p?"Retomar animação":"Pausar animação"});})();
 </script>
+<script src="dynamic.js"></script>
 <script src="cookies.js"></script>
 </body>
 </html>
